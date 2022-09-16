@@ -1,15 +1,6 @@
-import { isValidUsername, isExternal } from '@/utils/validate'
-
-describe('Utils:validate', () => {
-  it('isValidUsername', () => {
-    expect(isValidUsername('admin')).toBe(true)
-    expect(isValidUsername('editor')).toBe(true)
-    expect(isValidUsername('xxxx')).toBe(false)
-  })
-
-  it('isExternal', () => {
-    expect(isExternal('https://www.armour.com/')).toBe(true)
-    expect(isExternal('mailto:someone@test.com')).toBe(true)
-    expect(isExternal('123aBC')).toBe(false)
-  })
-})
+/*
+ * @Date: 2022-09-16 21:09:23
+ * @LastEditors: CZH
+ * @LastEditTime: 2022-09-17 04:06:00
+ * @FilePath: /vue-ts-Admin/tests/unit/utils/validate.spec.ts
+ */
