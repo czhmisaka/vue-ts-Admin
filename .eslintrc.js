@@ -1,3 +1,9 @@
+/*
+ * @Date: 2022-09-16 21:09:23
+ * @LastEditors: CZH
+ * @LastEditTime: 2022-09-17 01:31:14
+ * @FilePath: /vue-ts-Admin/.eslintrc.js
+ */
 module.exports = {
   root: true,
   env: {
@@ -12,6 +18,7 @@ module.exports = {
     ecmaVersion: 2020
   },
   rules: {
+    "prettier.singleQuote": false,
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/member-delimiter-style': ['error',

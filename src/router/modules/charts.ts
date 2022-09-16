@@ -1,7 +1,13 @@
+/*
+ * @Date: 2022-09-16 21:09:23
+ * @LastEditors: CZH
+ * @LastEditTime: 2022-09-17 03:05:17
+ * @FilePath: /vue-ts-Admin/src/router/modules/charts.ts
+ */
 import { RouteConfig } from 'vue-router'
 import Layout from '@/layout/index.vue'
 
-const chartsRouter: RouteConfig = {
+const dchartsRouter: RouteConfig = {
   path: '/charts',
   component: Layout,
   redirect: 'noredirect',

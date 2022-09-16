@@ -5,6 +5,7 @@
   "author": "Chong Guo <armourcy@gmail.com>",
   "scripts": {
     "serve": "concurrently \"npm:mock\" \"vue-cli-service serve\"",
+    "dev":"vue-cli-service serve",
     "test:unit": "jest --clearCache && vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "build:prod": "vue-cli-service build",
@@ -113,7 +114,6 @@
     "url": "https://github.com/armour/vue-typescript-admin-template/issues"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged"
   },
   "keywords": [
     "vue",
@@ -122,11 +122,6 @@
     "template",
     "element-ui"
   ],
-  "lint-staged": {
-    "*.{js,jsx,vue,ts,tsx}": [
-      "vue-cli-service lint"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/armour/vue-typescript-admin-template.git"

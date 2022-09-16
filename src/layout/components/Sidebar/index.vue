@@ -49,6 +49,7 @@ export default class extends Vue {
   }
 
   get routes() {
+    console.log('asd',PermissionModule.routes)
     return PermissionModule.routes
   }
 

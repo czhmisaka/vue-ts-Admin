@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2022-09-16 21:09:23
+ * @LastEditors: CZH
+ * @LastEditTime: 2022-09-17 01:28:19
+ * @FilePath: /vue-ts-Admin/src/views/dashboard/index.vue
+-->
 <template>
   <div class="dashboard-container">
     <component :is="currentRole" />
@@ -31,3 +37,10 @@ export default class extends Vue {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.dashboard-container{
+  min-height: 100%;
+  margin: $normalMargin;
+}
+</style>

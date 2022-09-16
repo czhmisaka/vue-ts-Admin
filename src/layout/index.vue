@@ -14,13 +14,13 @@
       class="main-container"
     >
       <div :class="{'fixed-header': fixedHeader}">
-        <navbar />
+        <!-- <navbar /> -->
         <tags-view v-if="showTagsView" />
       </div>
       <app-main />
-      <right-panel v-if="showSettings">
+      <!-- <right-panel v-if="showSettings">
         <settings />
-      </right-panel>
+      </right-panel> -->
     </div>
   </div>
 </template>
@@ -92,6 +92,7 @@ export default class extends mixins(ResizeMixin) {
 }
 
 .main-container {
+  background-color: $backgroundColor;
   min-height: 100%;
   transition: margin-left .28s;
   margin-left: $sideBarWidth;

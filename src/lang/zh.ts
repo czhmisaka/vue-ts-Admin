@@ -1,6 +1,12 @@
 export default {
   route: {
-    dashboard: '首页',
+    onlineWatcher: '在线监测',
+    onlineWatcherChart: '图表',
+    powerControler: '能效管理',
+    powerBi: '能效对标',
+    powerPre: '能效对标',
+    powerPlc: 'PLC计划',
+    dashboard: '总览',
     documentation: '文档',
     guide: '引导页',
     permission: '权限测试页',

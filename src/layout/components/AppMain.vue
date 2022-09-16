@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2022-09-16 21:09:23
+ * @LastEditors: CZH
+ * @LastEditTime: 2022-09-16 22:42:29
+ * @FilePath: /vue-ts-Admin/src/layout/components/AppMain.vue
+-->
 <template>
   <section class="app-main">
     <transition
@@ -46,8 +52,8 @@ export default class extends Vue {
 
 .hasTagsView {
   .app-main {
-    /* 84 = navbar + tags-view = 50 + 34 */
-    min-height: calc(100vh - 84px);
+    /* 84 = navbar + tags-view = 50 + 44 */
+    min-height: calc(100vh - 44px);
   }
 
   .fixed-header+.app-main {
